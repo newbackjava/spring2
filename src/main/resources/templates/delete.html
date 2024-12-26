@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/create2.css">
+</head>
+<body>
+<div class="container">
+<table>
+    <tr>
+        <td>
+            회원 탈퇴 후 화면.<br>
+            <h3 th:text="${id}"></h3>
+            <!--
+            ${id} : 전달된 이름인 id의 값을 출력해서
+            th:text : h3태그 사이의 텍스트로 집어 넣어라.
+            -->
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/member">
+                <button>회원정보 페이지로</button>
+            </a>
+        </td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
