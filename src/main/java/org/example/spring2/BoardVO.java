@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BoardVO {
+    //no는 autoincrement
     private int no;
     private String title;
     private String content;
